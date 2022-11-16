@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dangrek&family=Quicksand:wght@300;400;500&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/general.css">
+    <title>TODO - VANILLA JS APP | David Milosevic</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header__section container">
+            <div class="header__section__title-section">
+                <h1 class="header__section__title-section__heading">TODO APP</h1>
+                <p class="header__section__title-section__heading-text">Create your list of tasks, and make your life easier</p>
+            </div>
+            <img src="img/star-logo.png" alt="TODO logo of the app" class="header__section__logo-image">
+        </div>
+    </header>
+
+    <main class="main">
+        <div class="main__section container">
+            <div class="main__section__card">
+                <div class="main__section__card__details">
+                    <h3 class="main__section__card__details__card-heading">List of your tasks</h3>
+                </div>
+                <form class="main__section__card__card-input">
+                    <input type="text" placeholder="Add task" name="content" class="main__section__card__card-input__input-section">
+                    <button type="submit" class="main__section__card__card-input__input-button">Add</button>
+                </form>
+                <div class="main__section__card__card-main">
+                    <ul class="main__section__card__card-main__todo-list">
+                   
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
